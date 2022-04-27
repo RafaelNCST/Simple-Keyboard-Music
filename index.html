@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="images/electric-piano.png">
+    <title>Simple Keyboard</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="div-main-header"> <span>Si</span> <span>mp</span> <span>le</span> <span>ke</span> <span>yB</span> <span>oa</span> <span>rd </span> </div>
+      <div class="controls">
+          <span> Teclas Brancas: q, w, e, r, t, y, u </span>
+          <span> Teclas Pretas: a, s, d, f, g </span>
+      </div>
+    </header>
+    <div class="piano">
+
+      <div data-note="q" class="key white">
+        <audio class="note" src="notes/A.mp3"></audio>
+      </div>
+
+      <div data-note="a" class="key black"> 
+        <audio class="note" src="notes/Ab.mp3"></audio> 
+      </div>
+      
+      <div data-note="w" class="key white">
+        <audio class="note" src="notes/B.mp3"></audio>
+      </div>
+
+      <div data-note="s" class="key black"> 
+        <audio class="note" src="notes/Bb.mp3"></audio> 
+      </div>
+
+      <div data-note="e" class="key white"> 
+        <audio class="note" src="notes/C.mp3"></audio> 
+      </div>
+
+      <div data-note="r" class="key white">
+        <audio class="note" src="notes/D.mp3"></audio>
+      </div>
+
+      <div data-note="d" class="key black">
+        <audio class="note" src="notes/Db.mp3"></audio>
+      </div>
+
+      <div data-note="t" class="key white"> 
+        <audio class="note" src="notes/E.mp3"></audio> 
+      </div>
+
+      <div data-note="f" class="key black"> 
+        <audio class="note" src="notes/Eb.mp3"></audio> 
+      </div> 
+
+      <div data-note="y" class="key white">
+        <audio class="note" src="notes/G.mp3"></audio> 
+      </div>
+
+      <div data-note="g" class="key black">
+        <audio class="note" src="notes/Gb.mp3"></audio> 
+      </div>
+
+      <div data-note="u" class="key white"> 
+        <audio class="note" src="notes/F.mp3"></audio> 
+      </div>
+
+    </div>
+    <script type="text/javascript" src="index.js"></script>
+  </body>
+</html>
